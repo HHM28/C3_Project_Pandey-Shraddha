@@ -35,7 +35,7 @@ class RestaurantServiceTest {
     public void searching_for_non_existing_restaurant_should_throw_exception() throws restaurantNotFoundException {
         addRestaurantDetails();
 
-        String restaurantName = "Rahul's cafe";
+        String restaurantName = "Shraddha's cafe";
 
         //failing test case
 
